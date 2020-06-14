@@ -11,6 +11,10 @@ directory.
   `git hours --all`, or `git hours --since=1.year.ago`.
 * Open `hours.png`.
 
+## Example
+
+![example graph](img/hours.png)
+
 ## Requirements
 
 * A POSIX shell
