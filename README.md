@@ -15,9 +15,10 @@ directory.
 
 ![example graph](img/hours.png)
 
-## Requirements
+## Dependencies
 
 * A POSIX shell
+* awk
 * GNUPlot
 
 <!-- vim: set tw=72: -->
