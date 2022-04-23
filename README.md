@@ -18,6 +18,7 @@ directory.
 ## Dependencies
 
 * A POSIX shell
+* git
 * awk
 * GNUPlot
 
