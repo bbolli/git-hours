@@ -2,16 +2,16 @@
 
 data="$(git log "$@" --pretty=format:%ad --date=format:"%w %H" |
     awk '
-        $1 == 0 { $1 = 7; }
-        { h[$1 " " $2]++; }
+        $1 == 0 { $1 = 7 }
+        { h[$1 " " $2]++ }
         END {
             for (i in h)
                 if (max < h[i])
-                    max = h[i];
+                    max = h[i]
             # scale the values into the range [0..7)
-            max = (max - 1) / 7;
+            max = (max - 1) / 7
             for (i in h)
-                print i " " h[i] / max;
+                print i " " h[i] / max
         }
     ')"
 
